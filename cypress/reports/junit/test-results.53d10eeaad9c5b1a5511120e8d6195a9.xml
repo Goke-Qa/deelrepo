@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-09-28T15:00:40" tests="0" file="cypress/integration/cucumber-tests/3SBanking.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="3S Banking" timestamp="2021-09-28T15:00:40" tests="1" time="0.0000" failures="1">
+    <testcase name="3S Banking Verify all 3S banking functionalities" time="0.0000" classname="Verify all 3S banking functionalities">
+      <failure message="Timed out retrying after 70000ms: Expected to find element: `.primary`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: Expected to find element: `.primary`, but never found it.
+    at Function.activateMandate (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\3SBanking.feature:124:30)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\3SBanking.feature:69:31)
+    at Context.resolveAndRunStepDefinition (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\3SBanking.feature:10663:29)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\3SBanking.feature:10005:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

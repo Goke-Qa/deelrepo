@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="120.0300" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-06-10T15:18:38" tests="0" file="cypress/integration/cucumber-tests/3SBanking.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="3S Banking" timestamp="2021-06-10T15:18:38" tests="1" time="120.0300" failures="0">
+    <testcase name="3S Banking Verify all 3S banking functionalities" time="120.0300" classname="Verify all 3S banking functionalities">
+    </testcase>
+  </testsuite>
+</testsuites>

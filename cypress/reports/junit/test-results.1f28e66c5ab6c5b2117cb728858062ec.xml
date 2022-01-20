@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="265.9240" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-09-28T15:24:41" tests="0" file="cypress/integration/cucumber-tests/Transfer.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Trnasfers" timestamp="2021-09-28T15:24:41" tests="3" time="265.9240" failures="1">
+    <testcase name="Trnasfers Transfer to Others" time="149.3590" classname="Transfer to Others">
+    </testcase>
+    <testcase name="Trnasfers Transfer to Self" time="116.5650" classname="Transfer to Self">
+    </testcase>
+    <testcase name="Trnasfers Transfer to @Ease Account" time="0.0000" classname="Transfer to @Ease Account">
+      <failure message="Timed out retrying after 70000ms: Expected to find element: `input[name = &apos;amount&apos;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: Expected to find element: `input[name = 'amount']`, but never found it.
+    at Function.fillAmount (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:77:10)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:438:36)
+    at Context.resolveAndRunStepDefinition (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:10948:29)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:10290:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

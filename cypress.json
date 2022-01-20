@@ -1,0 +1,18 @@
+{
+    "projectId": "Deel",
+    "waitForAnimations": true,
+    "animationDistanceThreshold": 20,
+    "defaultCommandTimeout": 100000,
+    "execTimeout": 100000,
+    "pageLoadTimeout": 100000,
+    "video": true,
+    "failedStatusCode": false,
+    "testFiles": "**/*.{feature,features}",
+    "viewportWidth": 1920,
+    "viewportHeight": 1000,
+    "videoUploadOnPasses":false,
+    "reporter": "mocha-junit-reporter",
+    "reporterOptions": {
+        "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+         "testsuitesTitle": false}
+}

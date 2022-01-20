@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="105.0750" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2021-07-26T16:03:11" tests="0" file="cypress/integration/cucumber-tests/Transfer.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Trnasfers" timestamp="2021-07-26T16:03:11" tests="3" time="105.0750" failures="2">
+    <testcase name="Trnasfers Transfer to Others" time="0.0000" classname="Transfer to Others">
+      <failure message="Timed out retrying after 70000ms: expected &apos;[ &lt;div.session-timeout-wrap.ng-hide&gt;, 70 more... ]&apos; to contain &apos;SAVINGS&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: expected '[ <div.session-timeout-wrap.ng-hide>, 70 more... ]' to contain 'SAVINGS'
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:382:17)
+    at Context.resolveAndRunStepDefinition (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:10948:9)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:10287:35)]]></failure>
+    </testcase>
+    <testcase name="Trnasfers Transfer to Self" time="0.0000" classname="Transfer to Self">
+      <failure message="Timed out retrying after 70000ms: Expected to find element: `#mat-option-9`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: Expected to find element: `#mat-option-9`, but never found it.
+    at Function.selectSourceAcct (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:298:10)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:421:34)
+    at Context.resolveAndRunStepDefinition (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:10948:9)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\Transfer.feature:10287:35)]]></failure>
+    </testcase>
+    <testcase name="Trnasfers Transfer to @Ease Account" time="105.0750" classname="Transfer to @Ease Account">
+    </testcase>
+  </testsuite>
+</testsuites>

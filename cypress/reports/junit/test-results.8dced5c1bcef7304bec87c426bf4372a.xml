@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-06-10T15:31:55" tests="0" file="cypress/integration/cucumber-tests/logout.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Logout" timestamp="2021-06-10T15:31:55" tests="1" time="0.0000" failures="1">
+    <testcase name="Logout Logout" time="0.0000" classname="Logout">
+      <failure message="Timed out retrying after 70000ms: Expected to find element: `#txtusername`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: Expected to find element: `#txtusername`, but never found it.
+    at Function.fillUserID (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\logout.feature:40:10)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\logout.feature:120:25)
+    at Context.resolveAndRunStepDefinition (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\logout.feature:10597:9)
+    at Context.eval (https://80.248.0.83:3443/__cypress/tests?p=cypress\integration\cucumber-tests\logout.feature:9936:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

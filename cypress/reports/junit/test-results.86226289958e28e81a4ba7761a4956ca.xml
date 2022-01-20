@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="78.3840" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-26T15:55:34" tests="0" file="cypress/integration/cucumber-tests/lifestyle.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Lifestyle" timestamp="2021-07-26T15:55:34" tests="1" time="78.3840" failures="0">
+    <testcase name="Lifestyle Book flight" time="78.3840" classname="Book flight">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="84.1510" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-26T15:58:57" tests="0" file="cypress/integration/cucumber-tests/logout.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Logout" timestamp="2021-07-26T15:58:57" tests="1" time="84.1510" failures="0">
+    <testcase name="Logout Logout" time="84.1510" classname="Logout">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="157.4940" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-09-28T15:11:23" tests="0" file="cypress/integration/cucumber-tests/FXPurchase.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="FX Purchase" timestamp="2021-09-28T15:11:23" tests="2" time="157.4940" failures="0">
+    <testcase name="FX Purchase Submit New Request" time="81.5350" classname="Submit New Request">
+    </testcase>
+    <testcase name="FX Purchase View / Edit Previous requests" time="75.9590" classname="View / Edit Previous requests">
+    </testcase>
+  </testsuite>
+</testsuites>

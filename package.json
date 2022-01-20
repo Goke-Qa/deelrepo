@@ -1,0 +1,49 @@
+{
+  "name": "deel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+    "cy:verify": "cypress verify",
+    "cy:version": "cypress version",
+    "cy:run": "cypress run",
+    "cy:run:record": "cypress run --record",
+    "cy:open": "cypress open",
+    "build": "npm run lint && npm run types && npm run stop-only",
+    "start": "serve --listen ${PORT:-8080}",
+    "start:ci": "serve --no-clipboard --listen ${PORT:-8080}",
+    "start:ci:windows": "serve --no-clipboard --listen 8080",
+    "dev": "npm start",
+    "types": "tsc --noEmit",
+    "test": "npm start & cypress run",
+    "pretest": "npm run lint && npm run types",
+    "print-env": "print-env",
+    "lint": "eslint --fix cypress/**/*.js app/assets/js/scripts.js",
+    "lint:yaml": "yamllint '*.yml' 'basic/*.yml' .buildkite/pipeline.yml .semaphore/semaphore.yml '.github/workflows/*.yml'",
+    "colon:names": "colon-names",
+    "e2e": "cypress run",
+    "e2e:chrome": "cypress run --browser chrome",
+    "e2e:record": "cypress run --record",
+    "e2e:record:parallel": "cypress run --record --parallel",
+    "test:ci": "run-p --race start:ci e2e",
+    "local:open": "start-test 8080 cy:open",
+    "local:run": "start-test 8080 cy:run",
+    "local:run:record": "start-test 8080 cy:run:record",
+    "stop-only": "stop-only -f cypress/integration",
+    "warn-only": "stop-only -f cypress/integration --warn",
+    "ci:set-port": "node ./scripts/set-port",
+    "semantic-release": "semantic-release"
+  },
+  "author": "StanbicIBTC Teat automation team",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-cucumber-preprocessor": "^4.1.4",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-pipe": "^2.0.0",
+    "mocha-junit-reporter": "^2.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
